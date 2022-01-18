@@ -86,6 +86,129 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -------- Base Header - Footer Styles -------- */
+
+header,
+footer {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* Header Styles */
+
+header .content-wrapper {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+header nav {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Footer Styles */
+
+footer .social-icons {
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons p {
+  align-items: center;
+  display; flex;
+  justify-content: center;
+}
+
+/*-------- Mobile Styles - Homepage ---------*/
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Aside */
+aside {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Features */
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.features .features-items {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+/*=======
+About Page
+========*/
+
+.mission {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+/*======
+FAQ Page
+======*/
+
+.faq {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +383,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
