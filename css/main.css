@@ -86,6 +86,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.content-wrapper {
+  margin: 50px 0;
+  width: 90%;
+}
 /* -------- Base Header - Footer Styles -------- */
 
 header,
@@ -97,27 +102,56 @@ footer {
 }
 /* Header Styles */
 
+header {
+  margin: 15px 0;
+}
+
 header .content-wrapper {
   align-content: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0;
 }
 
+.header-divider {
+  height: 1px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+}
 
 header nav {
   align-content: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 /* Footer Styles */
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  margin: 50px 0;
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
 
 footer .social-icons {
   align-content: center;
@@ -131,6 +165,9 @@ footer .social-icons p {
   justify-content: center;
 }
 
+footer .copyright {
+  margin: 10px 0;
+}
 /*-------- Mobile Styles - Homepage ---------*/
 
 /* Hero Area */
@@ -142,6 +179,7 @@ footer .social-icons p {
 }
 
 /* Aside */
+
 aside {
   align-items: center;
   display: flex;
@@ -157,11 +195,24 @@ aside {
   justify-content: center;
 }
 
+.features h2 {
+  margin-bottom: 65px;
+}
+
 .features .features-items {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.features article {
+  margin: 25px 0;
+  width: 60%;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* Reviews */
@@ -170,6 +221,15 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.reviews h2 {
+  margin-bottom: 45px;
+}
+
+.reviews h3 {
+  width: 60%;
+  margin: 25px 0;
 }
 
 
@@ -191,7 +251,9 @@ About Page
   justify-content: center;
 }
 
-
+.contact-section p {
+  margin: 0;
+}
 /*======
 FAQ Page
 ======*/
@@ -210,6 +272,13 @@ FAQ Page
   justify-content: center;
 }
 
+.faq h2 {
+  margin-bottom: 45px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
