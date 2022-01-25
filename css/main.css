@@ -233,9 +233,7 @@ aside {
 }
 
 
-/*=======
-About Page
-========*/
+/*-------- Mobile Styles - About ---------*/
 
 .mission {
   align-items: center;
@@ -254,9 +252,8 @@ About Page
 .contact-section p {
   margin: 0;
 }
-/*======
-FAQ Page
-======*/
+
+/*-------- Mobile Styles - FAQ ---------*/
 
 .faq {
   align-items: center;
@@ -366,10 +363,147 @@ FAQ Page
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 768px) {
+    /* Tablet styles here */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+    /* General Styles */
+.content-wrapper {
+     margin: 100px 0;
+     max-width: 640px;
+   }
+
+    /* Header */
+
+header {
+  justify-content: space-around;
+  padding: 30px 0;
 }
+
+header .content-wrapper {
+  justify-content: space-between;
+}
+
+.header-divider {
+  display: none;
+}
+
+header nav {
+  width: 20%;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+
+    /* Aside */
+
+aside .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  margin: 0;
+  width: 40%;
+}
+
+    /* Features */
+
+.features article {
+  align-items: center;
+  display: flex;
+  flex-basis: 50%;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.features .features-item-description {
+  width: 50%;
+}
+
+    /* Reviews */
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews article div {
+  width: 48%;
+}
+
+    /* Footer */
+
+footer .content-wrapper {
+  margin: 100px 0;
+  width: 65%;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width: 100%;
+}
+
+  /* ==========================================================================
+       About Page
+       ========================================================================== */
+
+.mission-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 80%;
+}
+
+.contact-content {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-content {
+  flex-basis: 40%;
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+
+
+}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
