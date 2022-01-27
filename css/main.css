@@ -87,10 +87,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    /* General Styles */
+
+html {
+  font-size: 16px;
+   }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+   }
+
+p {
+  font-size: 0.875em;
+  line-height: 1.4375;
+   }
+
+img {
+
+   }
+
+figure {
+
+   }
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   margin: 50px 0;
   width: 90%;
 }
+
 /* -------- Base Header - Footer Styles -------- */
 
 header,
@@ -100,6 +152,7 @@ footer {
   flex-flow: row wrap;
   justify-content: center;
 }
+
 /* Header Styles */
 
 header {
@@ -233,7 +286,9 @@ aside {
 }
 
 
-/*-------- Mobile Styles - About ---------*/
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission {
   align-items: center;
@@ -253,7 +308,9 @@ aside {
   margin: 0;
 }
 
-/*-------- Mobile Styles - FAQ ---------*/
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
 .faq {
   align-items: center;
@@ -276,6 +333,7 @@ aside {
 .faq-content {
   margin-bottom: 50px;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -447,7 +505,7 @@ footer .content-wrapper {
 .footer-content {
   align-items: center;
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-between;
 }
 
 footer .contact {
@@ -458,9 +516,9 @@ footer .copyright {
   width: 100%;
 }
 
-  /* ==========================================================================
+/* ==========================================================================
        About Page
-       ========================================================================== */
+   ========================================================================== */
 
 .mission-content {
   align-items: center;
