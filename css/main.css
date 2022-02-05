@@ -103,6 +103,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -113,6 +115,7 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -547,12 +550,12 @@ header .content-wrapper {
   width: 100%;
 }
 
-.header-divider {
-  display: none;
-}
-
 header figure {
   width: 30%;
+}
+
+.header-divider {
+  display: none;
 }
 
 header nav {
@@ -607,6 +610,10 @@ aside .content-wrapper .form {
   width: 50%;
 }
 
+.features i {
+  margin-bottom: 30px;
+}
+
     /* Reviews */
 
 .reviews h2 {
@@ -625,7 +632,7 @@ aside .content-wrapper .form {
 
 .reviews h3 {
   margin: 0;
-  width: 35%;
+  width: 75%;
 }
     /* Footer */
 
@@ -636,7 +643,7 @@ footer .content-wrapper {
 
 footer .footer-content {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
