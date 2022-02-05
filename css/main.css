@@ -231,6 +231,14 @@ footer .social-icons p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.125em;
 }
 
 footer .copyright {
@@ -645,6 +653,11 @@ footer h4 {
 footer p {
   line-height: 1.285;
 }
+
+footer .social-icons {
+  justify-content: space-between;
+  width: 12.5em;
+  }
 
 footer .copyright {
   width: 100%;
